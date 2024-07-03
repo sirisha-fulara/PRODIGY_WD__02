@@ -1,0 +1,65 @@
+*{
+    background-color: #4e6c83;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: #2e151b;
+    text-shadow: 5px 5px 5px  #da7b93;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 20px ;
+}
+#counting{
+    background-color: #da7b93;
+    height:100px;
+    width: 400px;
+    margin: 30px;
+    margin-top: 100px;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 5rem;
+    text-align: center;
+    color: #2f4454;
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    gap:40px;
+}
+button{
+    height: 40px;
+    width: 40px;
+    border: 0px;
+    border-radius: 10px;
+}
+svg{
+    height: 25px;
+    width: 25px;
+}
+.play{
+    background-color: rgb(73, 227, 65);
+
+}
+.bi-google-play{
+    background-color: rgb(73, 227, 65);
+}
+.pause{
+    background-color: rgb(146, 105, 249);
+    
+}
+.bi-pause-fill{
+    background-color:rgb(146, 105, 249);
+}
+.stop{
+    background-color: rgb(238, 75, 75);
+
+}
+.bi-stop-fill{
+    background-color:rgb(238, 75, 75);
+}
